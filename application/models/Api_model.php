@@ -32,14 +32,14 @@ class Api_model extends CI_Model {
 					leads.cf_1016 as "Confirma cita",
 					leads.cf_1018 as "Ejecuta cita",
 					leads.cf_1020 as "Reagenda cita",
-					leads.cf_1022 as "Días interacción",
+					leads.cf_1022 as "Días_interacción",
 					leads.cf_1024 as "Fecha_de_ingreso",
 					leads.cf_1026 as "Fecha_primera_tarea",
 					leads.cf_1028 as "Hora que desea ser contactado",
 					leads.cf_1142 as "Agenda cita SI",
 					leads.cf_1144 as "Rectelefono",
 					leads.cf_1152 as "z0NA 16",
-					leads.cf_1154 as "Medio u hors de contacto",
+					leads.cf_1154 as "Medio_u_hors_de_contacto",
 					leads.cf_1156 as "Cuota Declarada 2",
 					leads.cf_1158 as "Reserva"
 					 from vtiger_leadscf leads
